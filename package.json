@@ -1,0 +1,20 @@
+{
+  "name": "crypto-checker-price",
+  "version": "1.0.0",
+  "description": "A simple package to fetch the price of a cryptocurrency by its ticker",
+  "main": "index.js",
+  "bin": {
+    "fetch-price": "./bin/fetchPrice.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "0xprune",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
